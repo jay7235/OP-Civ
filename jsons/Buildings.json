@@ -22,6 +22,18 @@
 		"uniques": ["40% of food is carried over after a new citizen is born"],
 		"requiredTech": "Engineering"
 	}
+		{
+		"name": "Citadel",
+		"uniqueTo": "Britannian Empire",
+		"culture": 2,
+		"gold": 2,
+		"happiness": 2,
+		"science": 2,
+		"cost": 10,
+		"hurryCostModifier": 10,
+		"maintenance": 0,
+		"uniques": ["Destroyed when the city is captured"]
+	},
 	    {
         "name": "Imperial Bank",
         "replaces": "Bank",
@@ -30,8 +42,8 @@
 		"happiness": 2,
         "specialistSlots": {"Merchant": 1},
         "hurryCostModifier": 15,
-        "uniques": ["[+5]% [Production] [in this city]",
-            "[+25]% [Gold] [in this city]"],
+		"percentStatBonus": {"gold": 25},
+        "uniques": ["[+5]% [Production] [in this city]"],
         "requiredTech": "Banking"
 		"requiredBuilding": "Market"
     },
@@ -134,6 +146,7 @@
 		"production": 2,
 		"specialistSlots": {"Engineer": 1},
 		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
 		"uniques": ["[+1 Production] from [Forest] tiles [in this city]"],
 		"requiredTech": "Metal Casting"
 	},
