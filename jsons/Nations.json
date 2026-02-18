@@ -1,5 +1,40 @@
 [
 	{
+		"name": "Britannian Empire",
+		"leaderName": "Zero",
+		"adjective": ["Britannia"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Haile Selassie"
+		
+		"startIntroPart1": "We come in peace!",
+		"startIntroPart2": "This is an overpowered nation. It is hard to lose with this nation, and it is an even harder nation to win against.",
+		
+		"declaringWar": "We will take everything and make it ours!",
+		"attacked": "You will regret making us your enemy",
+		"defeated": "Impossible! It should be impossible to defeat us!",
+		"introduction": "As a superior empire, we will take care of you.",
+		
+		"neutralHello": "How are you doing?",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
+		"hateYes": ["That is fine.","That is good enough.","Very well..."],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"uniqueName": "The Emblems of Power"
+		"unique": ["[+20]% Production when constructing [All] wonders [in all cities]", "[+1 Production] from every [Strategic resource]", "[+25]% Production towards any buildings that already exist in the Capital", "[+1 Gold] from each Trade Route","[+100]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]", "[-10]% Culture cost of adopting new Policies"]
+		"cities": ["Pendragon", "Ylisse", "Renais", "Enbarr", "Altea", "Talys", "Macedonia", "Ferox", "Plegia", "Lycia", "Ostia", "Bern", "Sacae", "Pherae", "Frelia", "Jehanna", "Rausten", "Grado", "Nohr", "Hoshido", "Fhirdiad", "Gra"]
+	}
+		{
 		"name": "Aliens",
 		"leaderName": "Zyxxyz",
 		"adjective": ["alien"],
