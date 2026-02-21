@@ -23,7 +23,7 @@
 		"requiredTech": "Engineering"
 	}
 		{
-		"name": "Citadel",
+		"name": "Britannian Citadel",
 		"uniqueTo": "Britannian Empire",
 		"culture": 2,
 		"gold": 2,
@@ -73,7 +73,7 @@
 		"uniques": ["Destroyed when the city is captured"] //"Only available <when religion is enabled>"
 	},
 		{
-		"name": "Royal Pyramid",
+		"name": "Royal Shrine",
 		"replaces": "Shrine",
 		"uniqueTo": "Britannian Empire",
 		"faith": 2,
@@ -93,7 +93,7 @@
 		"requiredTech": "Writing"
 	},
 		{
-		"name": "Walls of Britannian",
+		"name": "Walls of Britannia",
 		"replaces": "Walls",
 		"cost": 65,
 		"uniqueTo": "Britannian Empire",
