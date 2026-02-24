@@ -24,7 +24,7 @@
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
 		"replaces": "Archer",
-		"uniqueTo": "Babylon", "Britannian Empire",
+		"uniqueTo": ["Babylon", "Britannian Empire"],
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
 	},
@@ -37,7 +37,6 @@
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
-		"replaces": "Archer",
 		"uniqueTo": "Britannian Empire",
 		"upgradesTo": "Composite Bowman",
 		"attackSound": "arrow"
