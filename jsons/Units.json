@@ -14,20 +14,6 @@
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
 	},
-		{
-		"name": "Bowman",
-		"unitType": "Archery",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 9,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Construction",
-		"replaces": "Archer",
-		"uniqueTo": ["Babylon", "Britannian Empire"],
-		"upgradesTo": "Composite Bowman",
-		"attackSound": "arrow"
-	},
 			{
 		"name": "Bowman2",
 		"unitType": "Archery",
