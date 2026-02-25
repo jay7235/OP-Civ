@@ -29,8 +29,10 @@
 		"gold": 2,
 		"happiness": 2,
 		"science": 2,
-		"cost": 10,
-		"hurryCostModifier": 10,
+		"Food": 1,
+		"Faith": 1,
+		"cost": 5,
+		"hurryCostModifier": 5,
 		"maintenance": 0,
 		"uniques": ["Destroyed when the city is captured"]
 	},
