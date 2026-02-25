@@ -15,7 +15,7 @@
 		"attackSound": "phasers"
 	},
 			{
-		"name": "Bowman",
+		"name": "Master Bowman",
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 7,
@@ -28,9 +28,9 @@
 		"attackSound": "arrow"
 	},
 		{
-		"name": "Dromon",
+		"name": "Great Dromon",
 		"unitType": "Ranged Water",
-		"uniqueTo": ["Byzantium", "Britannian Empire"],
+		"uniqueTo": "Britannian Empire",
 		"replaces": "Trireme",
 		"movement": 4,
 		"strength": 13,
@@ -43,10 +43,10 @@
 		"attackSound": "arrow"
 	},
 		{
-		"name": "Hoplite",
+		"name": "Phalanx",
 		"unitType": "Sword",
 		"replaces": "Spearman",
-		"uniqueTo": ["Greece", "Britannian Empire"],
+		"uniqueTo": "Britannian Empire",
 		"movement": 2,
 		"strength": 13,
 		"cost": 56,
@@ -57,9 +57,9 @@
 		"attackSound": "metalhit"
 	},
 		{
-		"name": "Battering Ram",
+		"name": "OP Battering Ram",
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
-		"uniqueTo": ["The Huns", "Britannian Empire"],
+		"uniqueTo": "Britannian Empire",
 		"movement": 2,
 		"strength": 10,
 		"cost": 75,
@@ -72,10 +72,10 @@
 		"attackSound": "throw"
 	},
 		{
-		"name": "Ballista",
+		"name": "Great Ballista",
 		"unitType": "Siege",
 		"replaces": "Catapult",
-		"uniqueTo": ["Rome", "Britannian Empire"],
+		"uniqueTo": "Britannian Empire",
 		"movement": 2,
 		"strength": 8,
 		"rangedStrength": 10,
@@ -89,9 +89,9 @@
 		"attackSound": "throw"
 	},
 		{
-		"name": "Legion",
+		"name": "Legionary",
 		"unitType": "Sword",
-		"uniqueTo": ["Rome", "Britannian Empire"],
+		"uniqueTo": "Britannian Empire",
 		"replaces": "Swordsman",
 		"movement": 2,
 		"strength": 17,
@@ -105,10 +105,10 @@
 		"attackSound": "metalhit"
 	},
 		{
-		"name": "Landsknecht",
+		"name": "Myrmidon",
 		"unitType": "Sword",
 		"replaces": "Pikeman",
-		"uniqueTo": ["Germany", "Britannian Empire"],
+		"uniqueTo": "Britannian Empire",
 		"movement": 2,
 		"strength": 16,
 		"cost": 45,
@@ -119,9 +119,9 @@
 		"attackSound": "metalhit"
 	},
 			{
-		"name": "Siege Tower",
+		"name": "Great Siege Tower",
 		"unitType": "Sword", // You might expect this to be a siege unit, but apparently it is not
-		"uniqueTo": ["Assyria", "Britannian Empire"],
+		"uniqueTo": "Britannian Empire",
 		"movement": 2,
 		"strength": 12,
 		"cost": 75,
@@ -133,10 +133,10 @@
 		"attackSound": "throw"
 	},
 	{
-		"name": "Great Galleass",
+		"name": "OP Galleass",
 		"replaces": "Galleass",
 		"unitType": "Ranged Water",
-		"uniqueTo": ["Venice", "Britannian Empire"],
+		"uniqueTo": "Britannian Empire",
 		"movement": 3,
 		"strength": 18,
 		"rangedStrength": 20,
@@ -148,7 +148,7 @@
 		"attackSound": "arrow"
 	},
 		{
-		"name": "Longcrossbowman",
+		"name": "Long Crossbowman",
 		"unitType": "Archery",
 		"uniqueTo": "Britannian Empire",
 		"movement": 2,
